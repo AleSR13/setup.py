@@ -1,65 +1,87 @@
-📦 setup.py (for humans)
-=======================
+<div align="center">
+    <h1>My Package</h1> 
+    <br /> 
+    <h2>This is a great package</h2> 
+    <br /> 
+    <img src="https://via.placeholder.com/150" alt="Package logo"> 
+</div>
 
-This repo exists to provide [an example setup.py] file, that can be used
-to bootstrap your next Python project. It includes some advanced
-patterns and best practices for `setup.py`, as well as some
-commented–out nice–to–haves.
+## Package information
 
-For example, this `setup.py` provides a `$ python setup.py upload`
-command, which creates a *universal wheel* (and *sdist*) and uploads
-your package to [PyPi] using [Twine], without the need for an annoying
-`setup.cfg` file. It also creates/uploads a new git tag, automatically.
+- **Author(s):** Name author(s)
+- **Organization:** Rijksinstituut voor Volksgezondheid en Milieu (RIVM)
+- **Department:** Infektieziekteonderzoek, Diagnostiek en Laboratorium Surveillance (IDS), Bacteriologie (BPD)
+- **Start date:** 00 - 00 - 0000
 
-In short, `setup.py` files can be daunting to approach, when first
-starting out — even Guido has been heard saying, "everyone cargo cults
-thems". It's true — so, I want this repo to be the best place to
-copy–paste from :)
+## About this package
 
-[Check out the example!][an example setup.py]
+Short description of the pipeline.
 
-Installation
------
+## Prerequisities
 
-```bash
-cd your_project
+- Python 3.10.0 or higher
 
-# Download the setup.py file:
-#  download with wget
-wget https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py -O setup.py
+## Installation
 
-#  download with curl
-curl -O https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py
+1. Clone the repository.
+
+```
+git clone [link]
 ```
 
-To Do
------
+2. Go to [name] directory.
 
--   Tests via `$ setup.py test` (if it's concise).
+```
+cd [directory name]
+```
 
-Pull requests are encouraged!
+3. Continue steps
 
-More Resources
---------------
 
--   [What is setup.py?] on Stack Overflow
--   [Official Python Packaging User Guide](https://packaging.python.org)
--   [The Hitchhiker's Guide to Packaging]
--   [Cookiecutter template for a Python package]
+## Parameters & Usage
 
-License
--------
+### Command for help
 
-This is free and unencumbered software released into the public domain.
+- `-h`, `--help` Shows help.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any means.
+### Required parameters
 
-  [an example setup.py]: https://github.com/navdeep-G/setup.py/blob/master/setup.py
-  [PyPi]: https://docs.python.org/3/distutils/packageindex.html
-  [Twine]: https://pypi.python.org/pypi/twine
-  [image]: https://farm1.staticflickr.com/628/33173824932_58add34581_k_d.jpg
-  [What is setup.py?]: https://stackoverflow.com/questions/1471994/what-is-setup-py
-  [The Hitchhiker's Guide to Packaging]: https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/creation.html
-  [Cookiecutter template for a Python package]: https://github.com/audreyr/cookiecutter-pypackage
+- `-p`, `--parameter` Explanation of the parameter
+
+### Optional parameters
+
+- `-o`, `--optional_parameter` Explanation of the parameter
+
+### The base command to run this program from the command-line
+
+```
+python3 my_package/main.py -p [parameter]
+```
+
+## An example on how to run the pipeline.
+
+[insert command here]
+
+Detailed information about the pipeline can be found in the [documentation](link to other docs).
+
+## Explanation of the output
+
+Explanation.
+
+### Issues
+
+Known issues
+Go to the Issues section in this repo.
+
+### Future ideas
+
+Place to store future ideas.
+
+### License
+
+This package is licensed with a AGPL3 license. Detailed information can be found inside the 'LICENSE' file in this repository.
+
+### Contact
+
+**Contact person:** Alejandra Hernández Segura
+**Email:** ale.hdz.segura@gmail.com
